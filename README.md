@@ -11,3 +11,4 @@ cp .config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 cp .vimrc ~/.vimrc
 ```
 
+git config credential.helper 'cache --timeout 7776000' && echo 'cache for 90 days'
