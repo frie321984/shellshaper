@@ -1,0 +1,5 @@
+# add gitshortcuts if available
+if [ -f ~/.gitshortcuts.bashrc ]; then
+	. ~/.gitshortcuts.bashrc
+fi
+
