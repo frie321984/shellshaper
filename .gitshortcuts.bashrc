@@ -1,4 +1,5 @@
 alias gits='git status'
-alias gitp='git push'
-alias gitc='git commit'
+alias gitps='git push'
+alias gitpl='git pull'
+alias gitc='git commit -m '
 

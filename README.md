@@ -16,7 +16,7 @@ git config credential.helper 'cache --timeout 7776000' && echo 'cache for 90 day
 ```
 
 ```shell
-cp .gitshortcuts.bashrc ~/
+cp .gitshortcuts.bashrc ~
 cat bashrc-appendix >> ~/.bashrc
 ```
 
