@@ -19,3 +19,9 @@ git config credential.helper 'cache --timeout 7776000' && echo 'cache for 90 day
 cp .gitshortcuts.bashrc ~/
 cat bashrc-appendix >> ~/.bashrc
 ```
+
+# copy to clipboard
+```shell
+cat ~/.ssh/id_rsa.pub | xsel -i -b
+```
+
