@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+if [ -z "$1" ]; then
+       echo "kein parameter!"
+       exit 1
+fi
+if [ $# -ne 1 ]; then
+	echo "zu viele Parameter!"
+	echo "gacp 'commitmessage'"
+	exit 1
+fi
+git add . && git commit -m "${1}" && git push
+

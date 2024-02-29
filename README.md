@@ -25,3 +25,7 @@ cat bashrc-appendix >> ~/.bashrc
 cat ~/.ssh/id_rsa.pub | xsel -i -b
 ```
 
+```shell
+cp .local/bin/* $HOME/.local/bin/
+```
+
