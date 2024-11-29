@@ -6,7 +6,7 @@ Forged with the resilience of Parshendi carapace, the Shellshaper is a versatile
 https://github.com/frie321984/shellshaper
 ```
 ```shell
-mkdir -p ~/.config/tmux/tmux.conf
+mkdir -p ~/.config/tmux
 cp .config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 cp .vimrc ~/.vimrc
 ```
